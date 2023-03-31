@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prediction"
+    tools:context=".Prediciton">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:text="Tembalang"
+            android:textColor="@color/fontColor"
+            android:textSize="40dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfreguler"
+            android:paddingLeft="30dp"
+            android:textAlignment="center"
+            android:text="@string/suhuSoftCode"
+            android:textColor="@color/fontColor"
+            android:textSize="120dp"
+            android:textStyle="normal"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf"
+            android:padding="0dp"
+            android:text="Cloudy\n H:29° L:23°"
+            android:textAlignment="center"
+            android:textColor="@color/fontColor"
+            android:textSize="24dp"
+            android:textStyle="normal" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:background="@drawable/content_textview" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf"
+                android:text="Today"
+                android:textSize="18dp"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf"
+                android:text="Tuesday"
+                android:textSize="18dp"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:fontFamily="@font/sf"
+                android:text="Wednesday"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:fontFamily="@font/sf"
+                android:text="Thursday"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:fontFamily="@font/sf"
+                android:text="Friday"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:fontFamily="@font/sf"
+                android:text="Saturday"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:fontFamily="@font/sf"
+                android:text="Sunday"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:textSize="14dp"
+                android:text="80%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="154dp"
+                android:layout_marginTop="13dp" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:text="@string/suhuSoftCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="13dp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="43dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:textSize="14dp"
+                android:text="60%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="154dp"
+                android:layout_marginTop="43dp" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:text="29°"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="43dp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="73dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:textSize="14dp"
+                android:text="30%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="154dp"
+                android:layout_marginTop="73dp" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:text="32°"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="73dp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="103dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:textSize="14dp"
+                android:text="90%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="154dp"
+                android:layout_marginTop="103dp" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:text="28°"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="103dp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="133dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:textSize="14dp"
+                android:text="80%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="154dp"
+                android:layout_marginTop="133dp" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:text="29°"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="133dp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="163dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:textSize="14dp"
+                android:text="90%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="154dp"
+                android:layout_marginTop="163dp" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:text="28°"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="163dp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="193dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:textSize="14dp"
+                android:text="90%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="154dp"
+                android:layout_marginTop="193dp" />
+
+            <TextView
+                android:fontFamily="@font/sfreguler"
+                android:textColor="@color/fontColor"
+                android:text="28°"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="193dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="178dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/banjirmap"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfreguler"
+                android:textStyle="bold"
+                android:textColor="#FFFF00"
+                android:text="Flood Threat"
+                android:layout_gravity="center_horizontal"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="146dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="146dp"
+                android:src="@drawable/gempadangunung"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfreguler"
+                android:textStyle="bold"
+                android:textColor="#FFFF00"
+                android:text="Earthquake"
+                android:layout_gravity="center_horizontal"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+
+            <Button
+                android:id="@+id/backButton"
+                android:background="@drawable/rounded_corner"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="Back"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
