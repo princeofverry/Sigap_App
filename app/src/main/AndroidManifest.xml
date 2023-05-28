@@ -18,6 +18,9 @@
         tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute"
         tools:targetApi="31">
         <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity

@@ -15,6 +15,7 @@ import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.TextView
 import org.w3c.dom.Text
 
@@ -29,6 +30,7 @@ class home : AppCompatActivity() {
     private lateinit var bencanaGempaSatu : TextView
     private lateinit var bencanaGempaDua : TextView
     private lateinit var bencanaTsunami : TextView
+    private lateinit var buttonProfile : ImageButton
 
 
     private fun initComponents(){
@@ -41,6 +43,7 @@ class home : AppCompatActivity() {
         bencanaGempaSatu = findViewById(R.id.bencanaSatuGempa)
         bencanaGempaDua = findViewById(R.id.bencanaDuaGempa)
         bencanaTsunami = findViewById(R.id.bencanaTsunami)
+        buttonProfile = findViewById(R.id.buttonProfile)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -111,6 +114,12 @@ class home : AppCompatActivity() {
 
         bencanaTsunami.setOnClickListener {
             val intent = Intent(this@home, tsunami::class.java)
+            finish()
+            startActivity(intent)
+        }
+
+        buttonProfile.setOnClickListener{
+            val intent = Intent(this@home, login::class.java )
             finish()
             startActivity(intent)
         }
