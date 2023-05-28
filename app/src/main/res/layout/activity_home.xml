@@ -10,16 +10,24 @@
     android:animateLayoutChanges="true"
     tools:context=".home">
 
+
+<!--    <ImageButton-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        app:layout_constraintCircleRadius="20dp"-->
+<!--        tools:layout_editor_absoluteX="355dp"-->
+<!--        tools:layout_editor_absoluteY="16dp" />-->
+
     <ImageView
-        android:layout_width="157dp"
-        android:layout_height="149dp"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
         android:src="@drawable/berawan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.091" />
 
     <TextView
         android:id="@+id/kota"
@@ -28,7 +36,7 @@
         android:layout_height="wrap_content"
         android:text="Tembalang"
         android:textColor="@color/fontColor"
-        android:textSize="32sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +51,7 @@
         android:layout_width="94dp"
         android:layout_height="79dp"
         android:text="@string/suhuSoftCode"
-        android:textColor="@color/fontColor"
+        android:textColor="#dfdfdf"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +75,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.267" />
 
+
+
+
 <!--    Forecast 7 hari kedepan-->
+
+<!--    <ImageButton-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:src="@drawable/profile"-->
+<!--        android:background=""-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.942"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.016" />-->
 
     <TextView
         android:id="@+id/rounded_corner"
@@ -87,7 +110,7 @@
         android:letterSpacing="0.61"
         android:text="S   M   T   W   T   F   S"
         android:textAlignment="center"
-        android:textColor="#DFDFDFDF"
+        android:textColor="@color/fontColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.531"
@@ -346,6 +369,8 @@
 
 
     <!--    Bencana Terbaru End-->
+
+
 
 
 

@@ -391,7 +391,7 @@
             android:layout_marginLeft="160dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="16dp"
-            app:cardCornerRadius="15dp"
+            app:cardCornerRadius="16dp"
             app:cardElevation="8dp">
 
 
